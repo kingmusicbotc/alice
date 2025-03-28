@@ -8,18 +8,18 @@ load_dotenv()
 
 # Get this value from my.telegram.org/apps
 API_ID = 21547586
-API_HASH = "5121271f8299f1fcc9bef140f537b29b"
+API_HASH = "3a890319d9c73b8d0eb63a3e9875333f"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "8193876030:AAHOHY1L8n9rTEK79Mp0In9EA4ML0ExlJF8"
+BOT_TOKEN = "7515872721:AAFRvSuv8LG_mT3loh9jZOmUm09N88KkoZ0"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://kd2451691:kd2451691@cluster0.sw8u4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = "mongodb+srv://g8910267:g8910267@cluster0.jycvf4x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -4740575741
+LOG_GROUP_ID = 609517172
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 6020886539
@@ -39,11 +39,11 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/championscrickettallk"
-SUPPORT_GROUP = "https://t.me/CPLcricketleague"
+SUPPORT_CHANNEL = "https://t.me/Cricket_Arenaaa"
+SUPPORT_GROUP = "https://t.me/Gamingg_Arenna"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQFIykIAYpGfKbjIZOXa9z6db8_sk1zS_ha4N2JB45wSBd0exIPElw3DK8euzglxI4fGH3XbtU5ueD9TG40IyDadyMOYhl0HhW7yO-DPvr4Zt9XN7cY7Rh2F-OnY0KgUI6DC6y77fmL37IUhz6fxvG6l-l6LZ9TCXkiCu7ea2GqUngx50I7Tu8ExVsJaDeOf3xwdM_BeEQ4_Np0BG1mDmi3NUqUBKou4QRutKYfQFj6rx0cf0iL_BUDuO6aQ0eEjSpW4ZAETWwZeJqEgO7MJ5NEkureDSR7Y6mrxqzRXXWwd0B2AosuZ3V601GVncm7wJRDR7EWne8NT2rEi-3eE50Vk3l9S2wAAAAHgkUUPAA"
+STRING1 = "BQFobMAAiiU-ES9bYAH4xEr1Z0-UsgIZpE8zbHn3xLjnMFeRwU-NF1ubiBcxz4FAOga4UtB6zrtR0HXlq7gmw5dlruQGM159zVriS_ZFYYxMdd3KSrBGFOl-NwigiT42cf6OyHDSL_vSZphfAWMkBwCOiR-uXMxV27l_hcogh39FmiQLJmorvxSOZ1Hjycf-KMsf7CTcvyfrLyhQYXFVDePnouCKDJ-gAMDlxRGpBAjOxCaSUQpfH42gU3OFcLzNvVZICdKCR0l3saSI63prw2RbWtWh_iE_znm5LbkQ4quDY_HJnc-I6RzJytpLN7SGn5F_iNWUEpHHubpomU4oEwW39PMQPQAAAAGn_snOAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,11 +77,11 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/ee0e3648902ed14bf1f72-0ae1c0570394274eff.jpg"
+START_IMG_URL = "https://graph.org/file/0768af146378fe8f415ca-8fce3f43057b265035.jpg"
 
 PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/5022e00ac35a3d6f72cd1-17d52340e4281ee909.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
